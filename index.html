@@ -17,15 +17,26 @@
       </ul>
     </nav>
   </header>
+
   <section class="hero">
     <div class="hero-content">
-        <img src="../TravelFy - LandingPage/imagens/conceito-de-viagens-com-bagagem.jpg" style="width: 250px; height: px;">
-    <h1>TravelFy</h1>
-      <h2>Explore o Mundo Conosco</h2>
-      <p>Descubra novos lugares, culturas incríveis e aventuras emocionantes.</p>
-      <a href="#signup" class="btn">Cadastre-se Agora</a>
+      <div class="left-column">
+        <img src="../TravelFy - LandingPage/imagens/conceito-de-viagens-com-bagagem.jpg" alt="TravelFy">
+        <h1>TravelFy</h1>
+        <h2>Explore o Mundo Conosco</h2>
+        <p>Descubra novos lugares, culturas incríveis e aventuras emocionantes.</p>
+      </div>
+      <div class="right-column signup-section">
+        <h2>Inscreva-se agora receber ofertas exclusivas!</h2>
+        <form class="signup-form" action="#" method="post">
+          <input class="signup-input" type="text" placeholder="Nome" required>
+          <input class="signup-input" type="email" placeholder="Email" required>
+          <button class="signup-button" type="submit">Cadastrar</button>
+        </form>
+      </div>
     </div>
   </section>
+
   <section id="features" class="features">
     <div class="feature">
         <img src="../TravelFy - LandingPage/imagens/femininos-turistas-na-mao-tem-um-mapa-de-viagem-feliz_1150-7411.avif" alt="features 1" style="width: 200px; height: 170px;">
@@ -56,6 +67,28 @@
         <p>Descubra a energia de uma metrópole moderna e cosmopolita.</p>
       </div>      
   </section>
+  <section id="testimonials" class="testimonials">
+    <h2>Depoimentos de Clientes</h2>
+    <div class="testimonial">
+      <div class="testimonial-icon">
+        <img src="./imagens/icons8-pessoa-30.png" alt="Testimonial Icon 1">
+      </div>
+      <blockquote>
+        "Minha viagem com a TravelFy foi incrível! Os guias foram extremamente experientes e prestativos."
+      </blockquote>
+      <p class="author">- Maria Silva</p>
+    </div>
+    <div class="testimonial">
+      <div class="testimonial-icon">
+        <img src="./imagens/icons8-pessoa-30 (1).png" alt="Testimonial Icon 2">
+      </div>
+      <blockquote>
+        "Uma experiência que vou lembrar para o resto da minha vida. Destino maravilhoso e serviço excelente."
+      </blockquote>
+      <p class="author">- João Santos</p>
+    </div>
+  </section>
+  
   <section id="contact" class="contact">
     <h2>Entre em Contato</h2>
     <p>Estamos ansiosos para ouvir de você!</p>
@@ -67,7 +100,13 @@
     </form>
   </section>
   <footer class="footer">
+    <div class="social-media">
+      <a href="https://facebook.com/travelfy" target="_blank"><img src="..//TravelFy - LandingPage/imagens/icons8-facebook.svg" alt="Facebook"></a>
+      <a href="https://twitter.com/travelfy" target="_blank"><img src="..//TravelFy - LandingPage/imagens/icons8-twitter.svg" alt="Twitter"></a>
+    </div>
     <p>&copy; 2023 TravelFy. Todos os direitos reservados.</p>
   </footer>
+
+
 </body>
 </html>
